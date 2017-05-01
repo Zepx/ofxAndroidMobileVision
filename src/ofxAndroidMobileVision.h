@@ -2,6 +2,7 @@
 #include "ofConstants.h"
 #include "ofThread.h"
 #include "ofThreadChannel.h"
+#include "ofVec2f.h"
 
 #ifdef TARGET_ANDROID
 

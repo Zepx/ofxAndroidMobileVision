@@ -8,7 +8,7 @@ void ofApp::setup(){
 	// Use native (NV21) pixel format for best performance
 	grabber.setPixelFormat(OF_PIXELS_NV21);
 
-	grabber.setup(640,360);
+	grabber.setup(640,480);
 
 	vision.setup();
 
@@ -21,7 +21,7 @@ void ofApp::setup(){
 	}
 
 
-	font.load("Roboto-Regular.ttf",30);
+	font.load("Roboto-Regular.ttf",30, true, true);
 }
 
 //--------------------------------------------------------------
